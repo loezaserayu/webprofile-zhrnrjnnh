@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E3F2FD; /* Soft blue background */
+    color: #0D47A1; /* Dark blue text */
+}
+
+header {
+    background-color: #BBDEFB; /* Light blue header */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2196F3; /* Medium blue links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0D47A1; /* Darker blue on hover */
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #2196F3; /* Blue border for image */
+}
+
+.hero h1 {
+    margin-top: 20px;
+    color: #2196F3; /* Blue heading */
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    color: #2196F3; /* Blue heading */
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Responsive */
+}
+
+.skill {
+    text-align: center;
+    background-color: #BBDEFB; /* Light blue cards */
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 200px; /* Minimum width for mobile */
+    margin: 10px;
+}
+
+.timeline {
+    margin-top: 50px;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #BBDEFB; /* Light blue items */
+    border-left: 5px solid #2196F3; /* Blue accent */
+}
+
+.contact {
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    color: #2196F3; /* Blue heading */
+    text-align: center;
+}
+
+form {
+    background-color: #BBDEFB; /* Light blue form background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2196F3; /* Blue border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+form button {
+    background-color: #2196F3; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0D47A1; /* Darker blue on hover */
+}
+
+.info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: #BBDEFB; /* Light blue footer */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
